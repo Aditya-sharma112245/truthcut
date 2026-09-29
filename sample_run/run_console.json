@@ -1,0 +1,57 @@
+{
+  "product": "TruthCut",
+  "mode": "replay",
+  "territory": "IN",
+  "as_of": "2026-09-29",
+  "plans": [
+    {
+      "trailer_id": "family_v1",
+      "audience": "family",
+      "status": "PASS_WITH_WARNINGS",
+      "duration_seconds": 38,
+      "segments": [
+        "family_cand_01",
+        "family_cand_06",
+        "family_cand_02"
+      ],
+      "warnings": [
+        "music_03 requires human promotional approval.",
+        "Historical audience data contains a flagged bias signal; it was not used as a hard selection rule.",
+        "Instruction-like text was detected in untrusted evidence and ignored."
+      ]
+    },
+    {
+      "trailer_id": "young_adult_v1",
+      "audience": "young_adult",
+      "status": "PASS_WITH_WARNINGS",
+      "duration_seconds": 18,
+      "segments": [
+        "young_adult_cand_05",
+        "young_adult_cand_02",
+        "young_adult_cand_03"
+      ],
+      "warnings": [
+        "music_02 requires human promotional approval.",
+        "Historical audience data contains a flagged bias signal; it was not used as a hard selection rule.",
+        "Instruction-like text was detected in untrusted evidence and ignored."
+      ]
+    },
+    {
+      "trailer_id": "dialect_region_v1",
+      "audience": "dialect_region",
+      "status": "PASS_WITH_WARNINGS",
+      "duration_seconds": 31,
+      "segments": [
+        "dialect_region_cand_06",
+        "dialect_region_cand_01",
+        "dialect_region_cand_08"
+      ],
+      "warnings": [
+        "music_03 requires human promotional approval.",
+        "Dialect subtitle relationship review required for ['scene_06'].",
+        "Historical audience data contains a flagged bias signal; it was not used as a hard selection rule.",
+        "Instruction-like text was detected in untrusted evidence and ignored."
+      ]
+    }
+  ]
+}

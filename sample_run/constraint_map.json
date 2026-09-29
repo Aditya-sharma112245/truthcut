@@ -1,0 +1,29 @@
+{
+  "trusted_inputs": [
+    "episode_manifest",
+    "contracts",
+    "rating_policies",
+    "audiences",
+    "cost_sheet",
+    "protected_facts"
+  ],
+  "untrusted_evidence": [
+    "scene_descriptions",
+    "historic_performance",
+    "free_text_notes",
+    "automatic_captions"
+  ],
+  "validators": [
+    "schema",
+    "grounding",
+    "story_truth",
+    "spoiler",
+    "rights",
+    "ratings",
+    "dialect",
+    "accessibility",
+    "duration",
+    "budget",
+    "bias"
+  ]
+}

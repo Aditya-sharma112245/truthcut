@@ -1,0 +1,249 @@
+{
+  "trailer_id": "young_adult_v1",
+  "audience": "young_adult",
+  "duration_seconds": 18,
+  "audience_promise": "Pace, identity, humor, and sibling conflict",
+  "emotional_journey": [
+    "sharp hook",
+    "conflict and pressure",
+    "unresolved question"
+  ],
+  "segments": [
+    {
+      "segment_id": "young_adult_cand_05",
+      "scene_id": "scene_05",
+      "source_in": "00:05:10.000",
+      "source_out": "00:05:16.000",
+      "video": "stranger_question",
+      "audio": "dialogue_tense",
+      "subtitle": "standard",
+      "claim": "Someone else is searching for the key",
+      "reason": "Supports the young_adult audience promise using tension, young_adult evidence.",
+      "dependencies": [
+        "scene_05",
+        "music_02",
+        "actor_mira",
+        "subtitle_standard"
+      ],
+      "risk_flags": [
+        "tension",
+        "young_adult"
+      ],
+      "validators": [
+        {
+          "rule_id": "rights",
+          "status": "WARN",
+          "severity": "warning",
+          "message": "music_02 requires human promotional approval.",
+          "evidence": [
+            "music_02"
+          ],
+          "repair_options": [],
+          "human_approval_required": true
+        },
+        {
+          "rule_id": "bias",
+          "status": "WARN",
+          "severity": "warning",
+          "message": "Historical audience data contains a flagged bias signal; it was not used as a hard selection rule.",
+          "evidence": [
+            "historic_performance"
+          ],
+          "repair_options": [],
+          "human_approval_required": true
+        },
+        {
+          "rule_id": "accessibility",
+          "status": "PASS",
+          "severity": "info",
+          "message": "All dialogue selections have a declared subtitle track.",
+          "evidence": [],
+          "repair_options": [],
+          "human_approval_required": false
+        }
+      ],
+      "transition": "HARD_CUT",
+      "voice_over": null,
+      "text_card": "Someone else is searching for the key",
+      "music": "music_02",
+      "evidence": [
+        "scene:scene_05",
+        "candidate:cand_05",
+        "contract:music_02"
+      ],
+      "assumptions": [
+        "Source interval is verified against the canonical episode manifest."
+      ],
+      "dialogue": "Someone else is searching for the key"
+    },
+    {
+      "segment_id": "young_adult_cand_02",
+      "scene_id": "scene_02",
+      "source_in": "00:01:28.000",
+      "source_out": "00:01:34.000",
+      "video": "broken_clock",
+      "audio": "dialogue_mystery",
+      "subtitle": "standard",
+      "claim": "A forgotten mystery is waiting",
+      "reason": "Supports the young_adult audience promise using mystery, hook evidence.",
+      "dependencies": [
+        "scene_02",
+        "music_01",
+        "actor_mira",
+        "subtitle_standard"
+      ],
+      "risk_flags": [
+        "mystery",
+        "hook"
+      ],
+      "validators": [
+        {
+          "rule_id": "bias",
+          "status": "WARN",
+          "severity": "warning",
+          "message": "Historical audience data contains a flagged bias signal; it was not used as a hard selection rule.",
+          "evidence": [
+            "historic_performance"
+          ],
+          "repair_options": [],
+          "human_approval_required": true
+        },
+        {
+          "rule_id": "accessibility",
+          "status": "PASS",
+          "severity": "info",
+          "message": "All dialogue selections have a declared subtitle track.",
+          "evidence": [],
+          "repair_options": [],
+          "human_approval_required": false
+        }
+      ],
+      "transition": "HARD_CUT",
+      "voice_over": null,
+      "text_card": "A forgotten mystery is waiting",
+      "music": "music_01",
+      "evidence": [
+        "scene:scene_02",
+        "candidate:cand_02",
+        "contract:music_01"
+      ],
+      "assumptions": [
+        "Source interval is verified against the canonical episode manifest."
+      ],
+      "dialogue": "A forgotten mystery is waiting"
+    },
+    {
+      "segment_id": "young_adult_cand_03",
+      "scene_id": "scene_03",
+      "source_in": "00:02:38.000",
+      "source_out": "00:02:44.000",
+      "video": "sibling_argument",
+      "audio": "dialogue_conflict",
+      "subtitle": "standard",
+      "claim": "The siblings disagree about their future",
+      "reason": "Supports the young_adult audience promise using conflict, young_adult evidence.",
+      "dependencies": [
+        "scene_03",
+        "music_02",
+        "actor_mira",
+        "subtitle_standard"
+      ],
+      "risk_flags": [
+        "conflict",
+        "young_adult"
+      ],
+      "validators": [
+        {
+          "rule_id": "rights",
+          "status": "WARN",
+          "severity": "warning",
+          "message": "music_02 requires human promotional approval.",
+          "evidence": [
+            "music_02"
+          ],
+          "repair_options": [],
+          "human_approval_required": true
+        },
+        {
+          "rule_id": "bias",
+          "status": "WARN",
+          "severity": "warning",
+          "message": "Historical audience data contains a flagged bias signal; it was not used as a hard selection rule.",
+          "evidence": [
+            "historic_performance"
+          ],
+          "repair_options": [],
+          "human_approval_required": true
+        },
+        {
+          "rule_id": "accessibility",
+          "status": "PASS",
+          "severity": "info",
+          "message": "All dialogue selections have a declared subtitle track.",
+          "evidence": [],
+          "repair_options": [],
+          "human_approval_required": false
+        }
+      ],
+      "transition": "HARD_CUT",
+      "voice_over": null,
+      "text_card": "The siblings disagree about their future",
+      "music": "music_02",
+      "evidence": [
+        "scene:scene_03",
+        "candidate:cand_03",
+        "contract:music_02"
+      ],
+      "assumptions": [
+        "Source interval is verified against the canonical episode manifest."
+      ],
+      "dialogue": "The siblings disagree about their future"
+    }
+  ],
+  "estimated_cost": 0.07,
+  "validation_status": "PASS_WITH_WARNINGS",
+  "version": 1,
+  "warnings": [
+    "music_02 requires human promotional approval.",
+    "Historical audience data contains a flagged bias signal; it was not used as a hard selection rule.",
+    "Instruction-like text was detected in untrusted evidence and ignored."
+  ],
+  "decision_log": [
+    {
+      "event": "director_proposed",
+      "version": 1,
+      "segments": [
+        "young_adult_cand_11",
+        "young_adult_cand_02",
+        "young_adult_cand_03"
+      ]
+    },
+    {
+      "event": "repair",
+      "rule": "spoiler",
+      "replaced": "young_adult_cand_11",
+      "with": "young_adult_cand_05"
+    },
+    {
+      "event": "auditor_accepted",
+      "status": "PASS_WITH_WARNINGS",
+      "version": 1
+    }
+  ],
+  "objective": "Create a young_adult-appropriate mini-story without revealing the protected resolution.",
+  "fallback_plan": "Use deterministic replay and flag visual suitability for human review if a preferred model is unavailable.",
+  "human_approvals": [
+    "music promotion approval"
+  ],
+  "validation": {
+    "status": "PASS_WITH_WARNINGS",
+    "warnings": [
+      "music_02 requires human promotional approval.",
+      "Historical audience data contains a flagged bias signal; it was not used as a hard selection rule.",
+      "Instruction-like text was detected in untrusted evidence and ignored."
+    ],
+    "human_approvals": [
+      "music promotion approval"
+    ]
+  }
+}

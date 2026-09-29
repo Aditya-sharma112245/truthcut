@@ -1,0 +1,20 @@
+{
+  "event": "subtitle_mismatch",
+  "statuses": [
+    {
+      "trailer_id": "family_v1",
+      "status": "PASS_WITH_WARNINGS",
+      "version": 1
+    },
+    {
+      "trailer_id": "young_adult_v1",
+      "status": "PASS_WITH_WARNINGS",
+      "version": 1
+    },
+    {
+      "trailer_id": "dialect_region_v1",
+      "status": "HUMAN_REVIEW_REQUIRED",
+      "version": 1
+    }
+  ]
+}

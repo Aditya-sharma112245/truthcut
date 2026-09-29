@@ -1,0 +1,64 @@
+{
+  "facts": [
+    {
+      "fact_id": "fact_shop_legacy",
+      "statement": "The shop carries family history",
+      "spoiler_level": "safe"
+    },
+    {
+      "fact_id": "fact_siblings_conflict",
+      "statement": "Mira and Arjun disagree about the shop",
+      "spoiler_level": "safe"
+    },
+    {
+      "fact_id": "fact_search",
+      "statement": "The siblings search for the blue key",
+      "spoiler_level": "safe"
+    },
+    {
+      "fact_id": "fact_grandfather_secret",
+      "statement": "The blue key reveals the grandfather's secret",
+      "spoiler_level": "major",
+      "protected": true
+    }
+  ],
+  "protected_facts": [
+    {
+      "fact_id": "fact_grandfather_secret",
+      "type": "protected_resolution",
+      "scene_ids": [
+        "scene_11"
+      ],
+      "description": "The identity and content of the grandfather's secret"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "mira",
+      "to": "arjun",
+      "type": "siblings"
+    }
+  ],
+  "edges": [
+    {
+      "from": "scene_01",
+      "to": "fact_shop_legacy",
+      "relation": "establishes"
+    },
+    {
+      "from": "scene_03",
+      "to": "fact_siblings_conflict",
+      "relation": "establishes"
+    },
+    {
+      "from": "scene_06",
+      "to": "fact_search",
+      "relation": "establishes"
+    },
+    {
+      "from": "scene_11",
+      "to": "fact_grandfather_secret",
+      "relation": "reveals"
+    }
+  ]
+}

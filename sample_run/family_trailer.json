@@ -1,0 +1,233 @@
+{
+  "trailer_id": "family_v1",
+  "audience": "family",
+  "duration_seconds": 38,
+  "audience_promise": "Warmth, safe mystery, and a family worth protecting",
+  "emotional_journey": [
+    "welcoming world",
+    "safe mystery",
+    "hopeful family button"
+  ],
+  "segments": [
+    {
+      "segment_id": "family_cand_01",
+      "scene_id": "scene_01",
+      "source_in": "00:00:18.000",
+      "source_out": "00:00:32.000",
+      "video": "shop_dawn",
+      "audio": "dialogue_warm",
+      "subtitle": "standard",
+      "claim": "The family shop is worth protecting",
+      "reason": "Supports the family audience promise using warm, family evidence.",
+      "dependencies": [
+        "scene_01",
+        "music_01",
+        "actor_mira",
+        "subtitle_standard"
+      ],
+      "risk_flags": [
+        "warm",
+        "family"
+      ],
+      "validators": [
+        {
+          "rule_id": "bias",
+          "status": "WARN",
+          "severity": "warning",
+          "message": "Historical audience data contains a flagged bias signal; it was not used as a hard selection rule.",
+          "evidence": [
+            "historic_performance"
+          ],
+          "repair_options": [],
+          "human_approval_required": true
+        },
+        {
+          "rule_id": "accessibility",
+          "status": "PASS",
+          "severity": "info",
+          "message": "All dialogue selections have a declared subtitle track.",
+          "evidence": [],
+          "repair_options": [],
+          "human_approval_required": false
+        }
+      ],
+      "transition": "DISSOLVE",
+      "voice_over": null,
+      "text_card": "The family shop is worth protecting",
+      "music": "music_01",
+      "evidence": [
+        "scene:scene_01",
+        "candidate:cand_01",
+        "contract:music_01"
+      ],
+      "assumptions": [
+        "Source interval is verified against the canonical episode manifest."
+      ],
+      "dialogue": "The family shop is worth protecting"
+    },
+    {
+      "segment_id": "family_cand_06",
+      "scene_id": "scene_06",
+      "source_in": "00:06:29.000",
+      "source_out": "00:06:41.000",
+      "video": "siblings_attic",
+      "audio": "dialogue_hopeful",
+      "subtitle": "dialect",
+      "claim": "The siblings choose to search together",
+      "reason": "Supports the family audience promise using teamwork, dialect, family evidence.",
+      "dependencies": [
+        "scene_06",
+        "music_03",
+        "actor_mira",
+        "subtitle_dialect"
+      ],
+      "risk_flags": [
+        "teamwork",
+        "dialect",
+        "family"
+      ],
+      "validators": [
+        {
+          "rule_id": "rights",
+          "status": "WARN",
+          "severity": "warning",
+          "message": "music_03 requires human promotional approval.",
+          "evidence": [
+            "music_03"
+          ],
+          "repair_options": [],
+          "human_approval_required": true
+        },
+        {
+          "rule_id": "bias",
+          "status": "WARN",
+          "severity": "warning",
+          "message": "Historical audience data contains a flagged bias signal; it was not used as a hard selection rule.",
+          "evidence": [
+            "historic_performance"
+          ],
+          "repair_options": [],
+          "human_approval_required": true
+        },
+        {
+          "rule_id": "accessibility",
+          "status": "PASS",
+          "severity": "info",
+          "message": "All dialogue selections have a declared subtitle track.",
+          "evidence": [],
+          "repair_options": [],
+          "human_approval_required": false
+        }
+      ],
+      "transition": "DISSOLVE",
+      "voice_over": null,
+      "text_card": "The siblings choose to search together",
+      "music": "music_03",
+      "evidence": [
+        "scene:scene_06",
+        "candidate:cand_06",
+        "contract:music_03"
+      ],
+      "assumptions": [
+        "Source interval is verified against the canonical episode manifest."
+      ],
+      "dialogue": "The siblings choose to search together"
+    },
+    {
+      "segment_id": "family_cand_02",
+      "scene_id": "scene_02",
+      "source_in": "00:01:28.000",
+      "source_out": "00:01:40.000",
+      "video": "broken_clock",
+      "audio": "dialogue_mystery",
+      "subtitle": "standard",
+      "claim": "A forgotten mystery is waiting",
+      "reason": "Supports the family audience promise using mystery, hook evidence.",
+      "dependencies": [
+        "scene_02",
+        "music_01",
+        "actor_mira",
+        "subtitle_standard"
+      ],
+      "risk_flags": [
+        "mystery",
+        "hook"
+      ],
+      "validators": [
+        {
+          "rule_id": "bias",
+          "status": "WARN",
+          "severity": "warning",
+          "message": "Historical audience data contains a flagged bias signal; it was not used as a hard selection rule.",
+          "evidence": [
+            "historic_performance"
+          ],
+          "repair_options": [],
+          "human_approval_required": true
+        },
+        {
+          "rule_id": "accessibility",
+          "status": "PASS",
+          "severity": "info",
+          "message": "All dialogue selections have a declared subtitle track.",
+          "evidence": [],
+          "repair_options": [],
+          "human_approval_required": false
+        }
+      ],
+      "transition": "DISSOLVE",
+      "voice_over": null,
+      "text_card": "A forgotten mystery is waiting",
+      "music": "music_01",
+      "evidence": [
+        "scene:scene_02",
+        "candidate:cand_02",
+        "contract:music_01"
+      ],
+      "assumptions": [
+        "Source interval is verified against the canonical episode manifest."
+      ],
+      "dialogue": "A forgotten mystery is waiting"
+    }
+  ],
+  "estimated_cost": 0.07,
+  "validation_status": "PASS_WITH_WARNINGS",
+  "version": 1,
+  "warnings": [
+    "music_03 requires human promotional approval.",
+    "Historical audience data contains a flagged bias signal; it was not used as a hard selection rule.",
+    "Instruction-like text was detected in untrusted evidence and ignored."
+  ],
+  "decision_log": [
+    {
+      "event": "director_proposed",
+      "version": 1,
+      "segments": [
+        "family_cand_01",
+        "family_cand_06",
+        "family_cand_02"
+      ]
+    },
+    {
+      "event": "auditor_accepted",
+      "status": "PASS_WITH_WARNINGS",
+      "version": 1
+    }
+  ],
+  "objective": "Create a family-appropriate mini-story without revealing the protected resolution.",
+  "fallback_plan": "Use deterministic replay and flag visual suitability for human review if a preferred model is unavailable.",
+  "human_approvals": [
+    "music promotion approval"
+  ],
+  "validation": {
+    "status": "PASS_WITH_WARNINGS",
+    "warnings": [
+      "music_03 requires human promotional approval.",
+      "Historical audience data contains a flagged bias signal; it was not used as a hard selection rule.",
+      "Instruction-like text was detected in untrusted evidence and ignored."
+    ],
+    "human_approvals": [
+      "music promotion approval"
+    ]
+  }
+}

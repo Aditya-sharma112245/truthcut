@@ -1,0 +1,76 @@
+{
+  "protected_facts": [
+    {
+      "fact_id": "fact_grandfather_secret",
+      "type": "protected_resolution",
+      "scene_ids": [
+        "scene_11"
+      ],
+      "description": "The identity and content of the grandfather's secret"
+    }
+  ],
+  "candidate_reveals": [
+    {
+      "candidate_id": "cand_01",
+      "reveals": [],
+      "classification": "SAFE"
+    },
+    {
+      "candidate_id": "cand_02",
+      "reveals": [],
+      "classification": "SAFE"
+    },
+    {
+      "candidate_id": "cand_03",
+      "reveals": [],
+      "classification": "SAFE"
+    },
+    {
+      "candidate_id": "cand_04",
+      "reveals": [],
+      "classification": "SAFE"
+    },
+    {
+      "candidate_id": "cand_05",
+      "reveals": [],
+      "classification": "SAFE"
+    },
+    {
+      "candidate_id": "cand_06",
+      "reveals": [],
+      "classification": "SAFE"
+    },
+    {
+      "candidate_id": "cand_07",
+      "reveals": [],
+      "classification": "SAFE"
+    },
+    {
+      "candidate_id": "cand_08",
+      "reveals": [],
+      "classification": "SAFE"
+    },
+    {
+      "candidate_id": "cand_09",
+      "reveals": [],
+      "classification": "SAFE"
+    },
+    {
+      "candidate_id": "cand_10",
+      "reveals": [],
+      "classification": "SAFE"
+    },
+    {
+      "candidate_id": "cand_11",
+      "reveals": [
+        "fact_grandfather_secret"
+      ],
+      "classification": "MAJOR"
+    },
+    {
+      "candidate_id": "cand_12",
+      "reveals": [],
+      "classification": "SAFE"
+    }
+  ]
+}

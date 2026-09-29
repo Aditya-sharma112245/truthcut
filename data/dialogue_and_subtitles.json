@@ -1,0 +1,11 @@
+{
+  "source_dialogue": "data is represented by the timecoded dialogue fields in package.json",
+  "tracks": [
+    {"track_id":"standard_en","language":"en","kind":"source-aligned","review_status":"fixture_verified"},
+    {"track_id":"dialect_primary","language":"regional","kind":"dialect-subtitle","review_status":"human_review_required_for_relationships"},
+    {"track_id":"dialect_alternate","language":"regional-alt","kind":"dialect-subtitle","review_status":"fixture_verified"}
+  ],
+  "relationship_sensitive_spans": [
+    {"scene_id":"scene_06","canonical":"siblings","dialect_primary":"siblings","dialect_alternate":"friends","action":"block relationship claim and require review"}
+  ]
+}
